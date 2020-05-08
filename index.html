@@ -130,8 +130,10 @@ $(function(){
 	var $list = $('#list');
 	var $li = $list.find('>li');
 	var viewHeight = $(window).height();
+	var viewWidth = $(window).width();
 	
 	$main.css('height',viewHeight);
+	$main.css('height',viewWidth);
 	
 	showLoading();
 	slideCanvas();
