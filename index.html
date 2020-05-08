@@ -45,7 +45,8 @@ img{ display:block;}
 	margin-left:-50px; 
 	top:20%; 
 	background-size:cover; 
-	-webkit-animation:1s infinite flash linear; animation:1s infinite flash linear;}
+	-webkit-animation:1s infinite flash linear; 
+	animation:1s infinite flash linear;}
 @-webkit-keyframes flash{
 	0%{ opacity:0.5;}
 	50%{ opacity:1; }
@@ -56,13 +57,54 @@ img{ display:block;}
 	50%{ opacity:1; }
 	100%{ opacity:0.5; }
 }
-#text1{ width:348px; height:200px; background:url(img/t1.png) no-repeat; position:absolute; left:50%; margin-left:-174px; top:40%;}
-#text2{ width:418px; height:390px; background:url(img/t2.png) no-repeat; position:absolute; left:50%; margin-left:-209px; top:40%; opacity:0;}
-#beginEffect .lx img{ position:absolute; -webkit-transform-origin:left;}
-#beginEffect .lx img:nth-of-type(1){ left:500px; top:400px; height:20px; -webkit-animation:4s -3s infinite liuxing linear; animation:3s infinite liuxing linear;}
-#beginEffect .lx img:nth-of-type(2){ left:300px; top:200px; height:10px; -webkit-animation:5s infinite liuxing linear; animation:5s infinite liuxing linear;}
-#beginEffect .lx img:nth-of-type(3){ left:400px; top:300px; height:5px; -webkit-animation:2s -2s infinite liuxing linear; animation:2s infinite liuxing linear;}
-#beginEffect .lx img:nth-of-type(4){ left:500px; top:600px; height:15px; -webkit-animation:7s -1s infinite liuxing linear; animation:7s infinite liuxing linear;}
+#text1{ 
+	width:348px; 
+	height:200px;
+	 background:url(img/t1.png) no-repeat; 
+	 position:absolute; 
+	 left:50%; 
+	 margin-left:-174px; 
+	 top:40%;}
+#text2{ 
+	width:418px;
+	 height:390px; 
+	 background:url(img/t2.png) no-repeat;
+	  position:absolute; 
+	  left:50%; 
+	  margin-left:-209px;
+	   top:40%; 
+	   opacity:0;}
+#beginEffect .lx img{ 
+	position:absolute; 
+	-webkit-transform-origin:left;
+	}
+#beginEffect .lx img:nth-of-type(1){ 
+	left:500px;
+	 top:400px;
+	  height:20px;
+	   -webkit-animation:4s -3s infinite liuxing linear;
+	    animation:3s -3s infinite liuxing linear;
+		}
+#beginEffect .lx img:nth-of-type(2){ 
+	left:300px;
+	 top:200px; 
+	height:10px; 
+	-webkit-animation:5s infinite liuxing linear; 
+	animation:5s infinite liuxing linear;
+	}
+#beginEffect .lx img:nth-of-type(3){ 
+	left:400px;
+	 top:300px; 
+	 height:5px;
+	  -webkit-animation:2s -2s infinite liuxing linear; 
+	  animation:2s -2s infinite liuxing linear;
+	  }
+#beginEffect .lx img:nth-of-type(4){ 
+	left:500px; 
+	top:600px; 
+	height:15px; 
+	-webkit-animation:7s -1s infinite liuxing linear;
+	 animation:7s -1s infinite liuxing linear;}
 @-webkit-keyframes liuxing{
 	0%{ -webkit-transform:rotate(-45deg) translate(0,0) scaleX(0.5); opacity:0; }
 	40%{ -webkit-transform:rotate(-45deg) translate(-200px,0) scaleX(1); opacity:1;}
